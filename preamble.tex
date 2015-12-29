@@ -3,6 +3,7 @@
 
 \usepackage{titling}
 \usepackage{fancyhdr}
+\usepackage{titlesec}
 
 \usepackage{lipsum}
 
@@ -10,3 +11,9 @@
 \fancyhf{}
 \fancyhead[R]{\thepage}
 \renewcommand{\headrulewidth}{0pt}
+
+\titleformat{\chapter}
+{\large\bf\MakeUppercase}
+{\chaptertitlename\thinspace\thechapter}
+{5pt}
+{}
